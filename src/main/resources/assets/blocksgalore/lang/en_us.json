@@ -1,5 +1,8 @@
 {
   "item.blocksgalore.titanium_ingot": "Titanium Ingot",
   "item.blocksgalore.titanium_nugget": "Titanium Nugget",
-  "item.blocksgalore.raw_titanium": "Raw Titanium"
+  "item.blocksgalore.titanium_raw": "Raw Titanium",
+
+  "block.blocksgalore.titanium_block": "Titanium Block",
+  "block.blocksgalore.titanium_ore": "Titanium Ore"
 }

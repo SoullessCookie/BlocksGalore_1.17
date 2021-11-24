@@ -1,5 +1,6 @@
 package com.wrigglysplash.blocksgalore;
 
+import com.wrigglysplash.blocksgalore.block.ModBlocks;
 import com.wrigglysplash.blocksgalore.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -32,6 +33,7 @@ public class BlocksGalore
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 

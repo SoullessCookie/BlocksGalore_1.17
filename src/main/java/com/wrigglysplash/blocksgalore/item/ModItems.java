@@ -3,6 +3,7 @@ package com.wrigglysplash.blocksgalore.item;
 import com.wrigglysplash.blocksgalore.BlocksGalore;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemCooldowns;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,9 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     public static final RegistryObject<Item> TITANIUM_NUGGET = ITEMS.register("titanium_nugget",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+    public static final RegistryObject<Item> TITANIUM_RAW = ITEMS.register("titanium_raw",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 
